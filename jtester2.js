@@ -1096,7 +1096,7 @@ function bfs(startIndex, endIndex){
 }
 
 
-//FUNCTION TO CALCULATE DISTANCE BETWEEN TWO NODES USING PYTHAGOREAN THEOREM
+//FUNCTION TO CALCULATE DISTANCE BETWEEN TWO NODES
 function calcDist(startIndex, endIndex){
 	var startx = Math.floor(startIndex%58);
 	var starty = Math.floor(startIndex/58);
